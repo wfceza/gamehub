@@ -47,32 +47,17 @@ nav {
 .infoSection {
     margin-top: 70px;
     text-align: center;
-    opacity: 0;
 }
 
-.infoSection:hover {
-    opacity: 1;
-    transition: all 1s ease-in; 
-    animation-name: float;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    position: relative;
-}
+
 
 
 .infoH2 {
     margin-top: 50px;
-    opacity: 1;
     color: lightseagreen;
     font-size: 30px;
     font-family: cursive;
     text-align: center;
-    animation: mymove;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    position: relative;
 }
 
 
@@ -97,22 +82,10 @@ button:hover {
 
 .speakerContainer {
     margin-top: 30px;
-    opacity: 0;
     text-align: center;
 }
 
-.ps5 {
-    opacity: 0;
-}
-.speakerContainer:hover {
-    transition: all 1s ease-in; 
-    animation-name: float;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    position: relative;
-    opacity: 1;
-}
+
 
 .earth {
     margin-top: 30px;
@@ -128,9 +101,7 @@ button:hover {
     animation: spin 30s linear alternate infinite;
 }
 
-.ps5, .psvita, .xbox, .switch:hover {
-    opacity: 1;
-}
+
 
 @keyframes spin {
     100%{background-position: 100%;}
@@ -176,6 +147,7 @@ textarea {
 
 
 
+/*
 @keyframes float {
     0% {
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -200,6 +172,7 @@ textarea {
       opacity: 1;
     }
   }
+   */
 
 @media screen and (min-width: 320px) {
     .image {
@@ -288,5 +261,14 @@ nav.menu-btn {
     cursor: pointer;
 }
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
 
-
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
