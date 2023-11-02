@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/slide.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="">GameHub</a>
+
+            <img id="mobile-cta" class="openMenu" src="./images/menu.svg" alt="">
+        </div>
+
+        <nav>
+            <img id="mobile-exit" class="closeMenu" src="./images/exit - Copy.svg" alt="">
+
+            <ul class="primary-nav">
+                <a style="text-decoration: none;" href=""><li class="primayList">Home</li></a>
+                <a style="text-decoration: none;" href=""><li class="primayList">About Us</li></a>
+                <a style="text-decoration: none;" href=""><li class="primayList">Contact</li></a>
+                <a style="text-decoration: none;" href=""><li class="primayList">Pricing</li></a>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="hero">
+        <h1>GameHub</h1>
+        <p>A Website to get all latest infos about games</p>
+    </div>
+
+    <section aria-label="Newest Photo">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
+                <li class="slide"data-active><img  src="images/man-pressing-game.jpeg" alt=""></li>
+                <li class="slide"><img  src="./images/controllers.webp" alt=""></li>
+                <li class="slide"><img  src="./images/nintendo-switch.avif" alt=""></li>
+                <li class="slide"><img src="./images/ps4 vs xbox.webp" alt=""></li>
+                <li class="slide"><img src="./images/psvita.jpg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <h3 class="infoH2">Enter Into The Gameverse</h3>
+
+    <section class="hero">
+        <div class="infoSection">
+            <div class="monitorContainer">
+                <img class="image" src="./images/man-with-headset.webp" alt="">
+                <p style="margin-left: 10px;" class="infoFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat
+                    at non proident, sunt in culpa qui officia des
+                    erunt mollit anim id est laborum</p>
+                <button onclick="enterButton();" class="js-enter-button">Enter</button>
+            </div>
+        </div>
+
+        <h3 class="infoH2">Get Gaming Specifications</h3>
+
+        <h4 class="infoH2">Playstation 5</h4>
+        <div class="speakerContainer">
+            <img class="image"  src="./images/ps5.webp" alt="">
+        </div>
+
+        <h4 class="infoH2">Ps vita</h4>
+        <div class="speakerContainer">
+            <img class="image" src="./images/psvita.jpg" alt="">
+        </div>
+
+        <h4 class="infoH2">Nintendo Switch</h4>
+        <div class="speakerContainer">
+            <img class="image"  src="./images/switch-online.webp" alt="">
+        </div>
+
+        <h4 class="infoH2">Xbox</h4>
+        <div class="speakerContainer">
+            <img class="image"  src="./images/xbox.png" alt="">
+        </div>
+
+
+        <div>
+            <h4 style="text-align: center;" class="infoH2">Connect With Users Around The World</h4>
+            <div class="earth"></div>
+            <p style="margin-left: 10px;" style="text-align: center;" class="infoFont">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat
+                at non proident, sunt in culpa qui officia des
+                erunt mollit anim id est laborum</p>
+        </div>
+
+    </section>
+
+       
+    <div style="margin-left: 10px;" class="footer">
+        <h4>Send us a message</h4>
+
+        <input type="text">
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button>Submit</button>
+        <p>Designed by Ceza</p>
+    </div>
+</body>
+</html>
