@@ -279,7 +279,7 @@ transform: translateY(0px);
 opacity: 1;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 620px) {
   .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
