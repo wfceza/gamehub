@@ -7,8 +7,6 @@ body {
 .navbar {
     background-color: rgb(6, 33, 33);
     width: 430px;
-    position: fixed;
-    z-index: 999;
 }
 
 .container {
