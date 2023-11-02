@@ -16,7 +16,6 @@ body {
 
 
 .carousel, ul {
-    margin: 0px;
     padding: 0;
     list-style: none;
 }
@@ -32,7 +31,7 @@ body {
     margin-top: 10px;
     display: block;
     height: 300px;
-    width: 480px;
+    width: 440px;
     object-fit: cover;
     object-position: center;
 }
